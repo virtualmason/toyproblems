@@ -1,0 +1,1 @@
+{"index.js":"// let username = \"JackOfAllTrades\";\n// let userCheck = /change/; // Change this line\n// let result = userCheck.test(username);\n// console.log(result);\n\nlet username = \"8JackOfAllTrades67\";\nlet userCheck = /\\D+\\d+$|\\D/g; \nlet result = username.match(userCheck);\nconsole.log(result);\n\n\n\n"}
