@@ -1,1 +1,4 @@
-{"index.js":"function quickCheck(arr, elem) {\n  \n  return arr.indexOf(elem) === -1 ? false : true;\n\n  \n}\n\n// change code here to test different cases:\nconsole.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));"}
+function quickCheck(arr, elem) {
+  return arr.indexOf(elem) === -1 ? false : true; }// change code here to test different cases:\n
+  console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+}
